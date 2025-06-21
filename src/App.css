@@ -250,7 +250,7 @@ button {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f8ca29;
+    color: #2983f8;
 }
 
 .navbar {
@@ -280,7 +280,7 @@ button {
     width: 100%;
     float: left;
     font-size: 60px;
-    color: #fefefd;
+    color: #152b62;
     font-weight: bold;
     padding-bottom: 0px;
     line-height: 70px;
@@ -290,7 +290,7 @@ button {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #fefefd;
+    color: #152b62;
 }
 
 .social_icon {
@@ -305,7 +305,8 @@ button {
     display: inline-block;
 }
 
-.social_icon li {}
+
+/* .social_icon li {} */
 
 .social_icon li a {
     float: left;
