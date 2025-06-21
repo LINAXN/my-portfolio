@@ -29,9 +29,9 @@ function Header() {
 
   return (
     <>
-      <div className="header_section ">
+      <div className="header_section bg-light ">
         <div className="container">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <nav className="navbar navbar-expand-lg glass-navbar  ">
             <div className="logo">
               <a href="#">
                 <img src={Logo} alt="Logo" />
