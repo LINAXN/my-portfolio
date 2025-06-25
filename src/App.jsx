@@ -1,5 +1,7 @@
-import Header from './Header2.jsx'
-import Footer from './Footer.jsx'
+import Header from './Header2.jsx';
+import Footer from './Footer.jsx';
+import Protfileo from './portfolio.jsx';
+import Services from './Services.jsx';
 import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
@@ -10,6 +12,8 @@ function App() {
 return(
     <>
 <Header/>
+<Services/>
+<Protfileo/>
 <Footer/>
 </>
 );

@@ -64,10 +64,11 @@ function Header() {
         <div className="banner_section">
           <section className="slide-wrapper">
             <div className="container-fluid">
-             <div
+             <div 
   className="banner_section"
   style={{
-    backgroundImage: `url(${Bgheader})`,
+    marginTop: '20px',
+    backgroundImage: `url(${Banner})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

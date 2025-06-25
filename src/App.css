@@ -213,6 +213,9 @@ button {
 
 /* header section start */
 
+
+/* here */
+
 .header_section {
     width: 100%;
     float: left;
@@ -244,7 +247,7 @@ button {
     padding-right: 20px;
     padding-left: 20px;
     font-size: 18px;
-    color: #000000;
+    color: #DBE2EF;
     border-radius: 40px;
     text-transform: uppercase;
 }
@@ -283,13 +286,14 @@ button {
     float: left;
     padding-left: 100px;
     padding-top: 100px;
+    text-align: center;
 }
 
 .banner_taital {
     width: 100%;
     float: left;
     font-size: 60px;
-    color: #3F72AF;
+    color: #b0bfdc;
     font-weight: bold;
     padding-bottom: 0px;
     line-height: 70px;
@@ -299,7 +303,7 @@ button {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #3F72AF;
+    color: #b0bfdc;
 }
 
 .social_icon {
@@ -586,13 +590,13 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #f5c729;
+    color: #DBE2EF;
     font-weight: bold;
     text-align: center;
 }
 
 .portfolio_taital_1 {
-    color: #292929;
+    color: #112D4E;
     border-bottom: 5px solid #363636;
 }
 
