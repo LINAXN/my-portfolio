@@ -70,6 +70,59 @@ function Services() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="services_section_2">
+          <div className="row">
+            <div className="col-lg-3 col-sm-6">
+              <div className="box_main">
+                <div className="app_icon">
+                  <img src={icon1} alt="App Design Icon" />
+                </div>
+                <div className="app_icon_1">
+                  <img src={icon1} alt="App Design Icon Hover" />
+                </div>
+                <h4 className="services_text active">App Design</h4>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="box_main">
+                <div className="app_icon">
+                  <img src={icon2} alt="Website Design Icon" />
+                </div>
+                <div className="app_icon_1">
+                  <img src={icon6} alt="Website Design Icon Hover" />
+                </div>
+                <h4 className="services_text">Website Design</h4>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="box_main">
+                <div className="app_icon">
+                  <img src={icon3} alt="HTML CSS Icon" />
+                </div>
+                <div className="app_icon_1">
+                  <img src={icon7} alt="HTML CSS Icon Hover" />
+                </div>
+                <h4 className="services_text">Html And Css</h4>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="box_main">
+                <div className="app_icon">
+                  <img src={icon4} alt="Logo Design Icon" />
+                </div>
+                <div className="app_icon_1">
+                  <img src={icon8} alt="Logo Design Icon Hover" />
+                </div>
+                <h4 className="services_text">Logo Designing</h4>
+              </div>
+            </div>
+          </div>
           <div className="readmore_bt">
             <a href="#">Read More</a>
           </div>
