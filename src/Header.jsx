@@ -31,7 +31,7 @@ function Header() {
     <>
       <div className="header_section bg-light ">
         <div className="container">
-          <nav className="navbar navbar-expand-lg glass-navbar  ">
+          <nav className="navbar navbar-expand-lg glass-navbar fixed-top">
             <div className="logo">
               <a href="#">
                 <img src={Logo} alt="Logo" />

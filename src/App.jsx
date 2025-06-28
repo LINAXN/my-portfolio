@@ -1,4 +1,4 @@
-import Header from './Header2.jsx';
+import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Protfileo from './portfolio.jsx';
 import Services from './Services.jsx';
