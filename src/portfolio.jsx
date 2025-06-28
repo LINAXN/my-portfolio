@@ -1,7 +1,17 @@
 import Warq from './assets/Warq.jpg';
 import Movie from './assets/Movieplanner.png';
+
 function App() {
-  const images = [Warq,Movie]; // هنا استخدمنا الصورة المستوردة مباشرة
+  const portfolioItems = [
+    {
+      img: Warq,
+      link: 'https://github.com/AngelInvestorsPlatform/Angel-Investors-Platform',
+    },
+    {
+      img: Movie,
+      link: 'https://github.com/LINAXN/Angular_Project',
+    },
+  ];
 
   return (
     <div>
@@ -18,15 +28,17 @@ function App() {
 
           <div className="portfolio_section_2">
             <div className="row">
-              {images.map((img, index) => (
+              {portfolioItems.map((item, index) => (
                 <div className="col-md-4" key={index}>
                   <div className="container_main">
-                    <img src={img} alt="" className="image" />
+                    <img src={item.img} alt="" className="image" />
                     <div className="overlay">
                       <div className="text">
                         <div className="btn_main">
                           <div className="buy_bt">
-                            <a href="https://github.com/AngelInvestorsPlatform/Angel-Investors-Platform">See</a>
+                            <a href={item.link} target="_blank" rel="noopener noreferrer">
+                              See
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -37,10 +49,8 @@ function App() {
             </div>
           </div>
 
-          <div className="seemore_bt">
-            <a  style={{
-    marginTop: '20px'}}
-    href="#">See More</a>
+          <div className="seemore_bt" >
+            <a style={{ marginTop: '20px' }} href="#">See More</a>
           </div>
         </div>
       </div>
