@@ -17,7 +17,7 @@ function Header() {
   const socialIcons = (
     <div className="social_icon">
       <ul>
-        <li><a href="#"><i className="fab fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href=""><i className="fab fa-facebook" aria-hidden="true"></i></a></li>
         <li><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
         <li><a href="#"><i className="fab fa-linkedin" aria-hidden="true"></i></a></li>
         <li><a href="#"><i className="fab fa-instagram" aria-hidden="true"></i></a></li>
@@ -49,14 +49,13 @@ function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav ms-auto">
-                <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
-                <li className="nav-item"><a className="nav-link" href="#">About</a></li>
-                <li className="nav-item"><a className="nav-link" href="#">Portfolio</a></li>
-                <li className="nav-item"><a className="nav-link" href="#">Service</a></li>
-                <li className="nav-item"><a className="nav-link" href="#">Blog</a></li>
-                <li className="nav-item"><a className="nav-link" href="#">Contact me</a></li>
-              </ul>
+          <ul className="navbar-nav ms-auto">
+  <li className="nav-item"><a className="nav-link" href="#home">Home</a></li>
+  <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
+  <li className="nav-item"><a className="nav-link" href="#portfolio">Portfolio</a></li>
+  <li className="nav-item"><a className="nav-link" href="#services">Service</a></li>
+  <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
+</ul>
             </div>
           </nav>
         </div>

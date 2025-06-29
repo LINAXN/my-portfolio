@@ -9,7 +9,9 @@ import icon8 from './assets/icon-8.png';
 
 function Services() {
   return (
-    <div className="services_section layout_padding margin_90">
+    <>
+  <section id="services" className="section">
+    <div className="services_section">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
@@ -129,6 +131,8 @@ function Services() {
         </div>
       </div>
     </div>
+    </section>
+    </>
   );
 }
 

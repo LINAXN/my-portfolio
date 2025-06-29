@@ -14,7 +14,8 @@ function App() {
   ];
 
   return (
-    <div>
+  <section id="portfolio" className="section">
+    <div> 
       {/* Portfolio Section */}
       <div className="portfolio_section layout_padding">
         <div className="container">
@@ -55,6 +56,7 @@ function App() {
         </div>
       </div>
     </div>
+  </section>
   );
 }
 

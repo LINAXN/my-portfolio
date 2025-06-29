@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // مهم لتشغيل Navba
 
 function Footer() {
   return (
+  <section id="Footer" className="section">
     <div className="footer_section">
       <div className="container">
         <div className="location_text">
@@ -22,6 +23,7 @@ function Footer() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 
