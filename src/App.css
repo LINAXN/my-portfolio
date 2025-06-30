@@ -260,7 +260,6 @@ button {
 .section {
     height: 100vh;
     padding-top: 100px;
-    /* عشان ما يتغطى */
     background-color: #f4f4f4;
     text-align: center;
     font-size: 30px;
@@ -515,7 +514,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #f5c729;
+    color: #1f6885;
     font-weight: bold;
 }
 
@@ -537,7 +536,7 @@ button {
 .box_main {
     width: 100%;
     border-radius: 100%;
-    border: 6px solid #f5c729;
+    border: 6px solid #1f6885;
     height: auto;
     padding: 70px 0px;
     box-shadow: 0px 0px 60px 0px #f0f0ef;
@@ -561,11 +560,11 @@ button {
 }
 
 .box_main:hover .services_text {
-    color: #f5c729;
+    color: #1f6885;
 }
 
 .services_text.active {
-    color: #f5c729;
+    color: #1f6885;
 }
 
 .box_main:hover .app_icon_1 {
@@ -597,7 +596,7 @@ button {
 }
 
 .readmore_bt a:hover {
-    background-color: #f5c729;
+    background-color: #1f6885;
     color: #fefefd;
 }
 
@@ -617,7 +616,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #DBE2EF;
+    color: #1f6885;
     font-weight: bold;
     text-align: center;
 }
@@ -714,7 +713,7 @@ button {
     text-align: center;
     font-size: 16px;
     color: #fefefd;
-    background-color: #252f2d;
+    background-color: #1f6885;
     padding: 14px 0px;
     font-weight: bold;
     border-radius: 5px;
@@ -871,7 +870,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #f5c729;
+    color: #1f6885;
     font-weight: bold;
     text-align: center;
 }
@@ -938,7 +937,7 @@ textarea#comment.massage-bt::placeholder {
     text-align: center;
     font-size: 16px;
     color: #fefefd;
-    background-color: #fa7e23;
+    background-color: #2874b3;
     padding: 14px;
     margin-top: 40px;
     display: block;
@@ -1010,44 +1009,54 @@ textarea#comment.massage-bt::placeholder {
 
 .footer_section {
     width: 100%;
-    float: left;
-    background-color: #112D4E;
-    height: auto;
-    padding: 60px 0px 45px 0px;
-}
-
-.location_text {
-    width: 100%;
+    color: #b08eeb;
+    background-color: #b08eeb;
+    padding: 80px 0 80px 0;
+    /* خففنا البادينغ من تحت */
     text-align: center;
-    display: inline-block;
-    margin: 0 auto;
 }
 
 .location_text ul {
-    margin: 0px;
-    padding: 0px;
-    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    /* تخليهم جنب بعض وتوسّطهم */
+    gap: 20px;
 }
 
 .location_text li {
-    float: left;
+    display: inline-block;
 }
 
 .location_text li a {
-    float: left;
     font-size: 20px;
-    color: #fefefd;
-    margin: 0px 10px;
-    background-color: #3e412d;
-    padding: 12px 0px;
+    color: #1b61b7;
+    /* ← هذا يغير لون الأيقونة */
+    background-color: #b08eeb;
+    /* ← لون الخلفية للأيقونة */
+    padding: 12px 0;
     border-radius: 100%;
     width: 60px;
-    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
 }
 
 .location_text li a:hover {
     color: #252f2d;
     background-color: #fefefd;
+}
+
+
+/* فقرة النص */
+
+.footer_section p {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
 }
 
 
