@@ -932,7 +932,7 @@ textarea#comment.massage-bt::placeholder {
     text-align: center;
 }
 
-.send_bt a {
+.send_bt button {
     width: 100%;
     text-align: center;
     font-size: 16px;
@@ -945,7 +945,7 @@ textarea#comment.massage-bt::placeholder {
     border-radius: 5px;
 }
 
-.send_bt a:hover {
+.send_bt button:hover {
     color: #fefefd;
     background-color: #8d60db;
     border-color: #000;
