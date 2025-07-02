@@ -588,7 +588,7 @@ button {
     text-align: center;
     font-size: 16px;
     color: #fefefd;
-    background-color: #252f2d;
+    background-color: #1f6885;
     padding: 14px 20px;
     margin-top: 10px;
     border-radius: 5px;
@@ -596,7 +596,7 @@ button {
 }
 
 .readmore_bt a:hover {
-    background-color: #1f6885;
+    background-color: #b08eeb;
     color: #fefefd;
 }
 
@@ -720,7 +720,7 @@ button {
 }
 
 .seemore_bt a:hover {
-    background-color: #f5c729;
+    background-color: #b08eeb;
     color: #fefefd;
 }
 
@@ -850,7 +850,7 @@ button {
 }
 
 .readmore_bt_1 a:hover {
-    background-color: #f5c729;
+    background-color: #b08eeb;
     color: #fefefd;
 }
 
@@ -947,7 +947,8 @@ textarea#comment.massage-bt::placeholder {
 
 .send_bt a:hover {
     color: #fefefd;
-    background-color: #252f2d;
+    background-color: #8d60db;
+    border-color: #000;
 }
 
 
