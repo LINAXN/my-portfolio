@@ -93,8 +93,8 @@ function Header() {
                         <div className="row">
                           <div className="col-md-6">
                             <div className="banner_taital_main">
-                              <h3 className="banner_text">Hello Am <br />Joy Seno</h3>
-                              <h1 className="banner_taital">UI/UX Designer</h1>
+                              <h3 className="banner_text">Hello Am <br />Lina khaled</h3>
+                              <h1 className="banner_taital">Full-Stack Developer</h1>
                             </div>
                           </div>
                           <div className="col-md-6">

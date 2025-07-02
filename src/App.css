@@ -318,7 +318,7 @@ button {
 .banner_taital {
     width: 100%;
     float: left;
-    font-size: 60px;
+    font-size: 50px;
     color: #b0bfdc;
     font-weight: bold;
     padding-bottom: 0px;
@@ -328,7 +328,7 @@ button {
 .banner_text {
     width: 100%;
     float: left;
-    font-size: 24px;
+    font-size: 35px;
     color: #b0bfdc;
 }
 
