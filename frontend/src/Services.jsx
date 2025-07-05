@@ -132,7 +132,7 @@ function Services() {
             </div>
           </div>
           <div className="readmore_bt">
-            <a href="#">Read More</a>
+               <a href="/cv.pdf" download="Lina-Khaled-CV.pdf">Read More</a>
           </div>
         </div>
       </div>
