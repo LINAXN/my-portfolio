@@ -85,7 +85,7 @@ function Services() {
                 <div className="app_icon_1">
                   <img src={icon1} alt="App Design Icon Hover" />
                 </div>
-                <h4 className="services_text active">App Design</h4>
+                <h4 className="services_text active">javaSecript Frameworks</h4>
               </div>
             </div>
 
@@ -97,7 +97,7 @@ function Services() {
                 <div className="app_icon_1">
                   <img src={icon6} alt="Website Design Icon Hover" />
                 </div>
-                <h4 className="services_text">Website Design</h4>
+                <h4 className="services_text"> bootstrap </h4>
               </div>
             </div>
 
@@ -109,7 +109,7 @@ function Services() {
                 <div className="app_icon_1">
                   <img src={icon7} alt="HTML CSS Icon Hover" />
                 </div>
-                <h4 className="services_text">Html And Css</h4>
+                <h4 className="services_text">Backend</h4>
               </div>
             </div>
 
@@ -121,7 +121,7 @@ function Services() {
                 <div className="app_icon_1">
                   <img src={icon8} alt="Logo Design Icon Hover" />
                 </div>
-                <h4 className="services_text">Logo Designing</h4>
+                <h4 className="services_text">Coding</h4>
               </div>
             </div>
           </div>
