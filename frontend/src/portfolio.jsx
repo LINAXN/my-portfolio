@@ -51,7 +51,7 @@ function App() {
           </div>
 
           <div className="seemore_bt" >
-            <a style={{ marginTop: '20px' }} href="#">See More</a>
+            <a style={{ marginTop: '20px' }} href="https://github.com/LINAXN">See More</a>
           </div>
         </div>
       </div>
