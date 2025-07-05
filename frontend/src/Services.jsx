@@ -1,4 +1,5 @@
 import React from 'react';
+import icon0 from './assets/icon-0.png';
 import icon1 from './assets/icon-1.png';
 import icon2 from './assets/icon-2.png';
 import icon3 from './assets/icon-3.png';
@@ -6,6 +7,11 @@ import icon4 from './assets/icon-4.png';
 import icon6 from './assets/icon-6.png';
 import icon7 from './assets/icon-7.png';
 import icon8 from './assets/icon-8.png';
+// import icon9 from './assets/icon-9.svg'
+import icon10 from './assets/icon-10.png'
+import icon11 from './assets/icon-11.png'
+import icon12 from './assets/icon-12.png'
+import icon13 from './assets/icon-13.png'
 
 function Services() {
   return (
@@ -27,7 +33,7 @@ function Services() {
             <div className="col-lg-3 col-sm-6">
               <div className="box_main">
                 <div className="app_icon">
-                  <img src={icon1} alt="App Design Icon" />
+                  <img src={icon0} alt="App Design Icon" />
                 </div>
                 <div className="app_icon_1">
                   <img src={icon1} alt="App Design Icon Hover" />
@@ -80,22 +86,22 @@ function Services() {
             <div className="col-lg-3 col-sm-6">
               <div className="box_main">
                 <div className="app_icon">
-                  <img src={icon1} alt="App Design Icon" />
+                  <img src={icon12} alt="frameworks Icon" />
                 </div>
                 <div className="app_icon_1">
-                  <img src={icon1} alt="App Design Icon Hover" />
+                  <img src={icon13} alt="frameworks Icon Hover" />
                 </div>
-                <h4 className="services_text active">javaSecript Frameworks</h4>
+                <h4 className="services_text active"> React &  Anguler</h4>
               </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
               <div className="box_main">
                 <div className="app_icon">
-                  <img src={icon2} alt="Website Design Icon" />
+                  <img src={icon10} alt="Website Design Icon" />
                 </div>
                 <div className="app_icon_1">
-                  <img src={icon6} alt="Website Design Icon Hover" />
+                  <img src={icon11} alt="Website Design Icon Hover" />
                 </div>
                 <h4 className="services_text"> bootstrap </h4>
               </div>
