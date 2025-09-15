@@ -9,6 +9,6 @@ This is a full-stack personal portfolio website built with:
 
 ---
 
-✨ Author
+✨
 Lina Khaled
 
